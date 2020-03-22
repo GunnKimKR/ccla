@@ -1,0 +1,24 @@
+@charset "UTF-8";
+/* Author Kim Geon */
+
+::selection{background-color:#000;color:#fff}
+html,body,#wrap,.content_wrap,.content_inner{height:100%}
+body,input,textarea,select,button,table{font-weight:400;font-size:16px;font-family:NotoSansKR,'Malgun Gothic',Gulim,sans-serif;line-height:1.5;letter-spacing:-.5px;color:#444}
+body{overflow:hidden;word-break:keep-all;word-wrap:break-word}
+a{color:#444}
+a:hover,a:active,a:focus,a:link{color:#444}
+img{max-width:100%}
+.onlyMo{display:none}
+.blind{overflow:hidden;position:absolute;width:1px;height:1px;margin:-1px;clip:rect(0 0 0 0)}
+.hide{display:none !important}
+.clear:after{display:block;clear:both;content:''}
+.transition_hide{visibility:visible;opacity:0}
+
+.copy{display:block;padding:5px 0 7px;background-color:#000;font-size:12px;color:#fff;letter-spacing:.5px;text-align:center}
+
+/* mediaquery */
+@media screen and (max-width:1024px){
+  body{overflow:auto}
+  .onlyMo{display:block}
+  .onlyPc{display:none}
+}

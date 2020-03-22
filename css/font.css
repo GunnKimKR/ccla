@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+/* font-family NotoSans */
+@font-face{
+  font-weight:100;
+  font-family:NotoSansKR;
+  src:url(../fonts/NotoSansKR-Thin.eot);
+  src:url(../fonts/NotoSansKR-Thin.eot?#iefix) format('embedded-opentype'),
+  url(../fonts/NotoSansKR-Thin.woff2) format('woff2'),
+  url(../fonts/NotoSansKR-Thin.woff) format('woff')
+}
+@font-face{
+  font-weight:300;
+  font-family:NotoSansKR;
+  src:url(../fonts/NotoSansKR-Light.eot);
+  src:url(../fonts/NotoSansKR-Light.eot?#iefix) format('embedded-opentype'),
+  url(../fonts/NotoSansKR-Light.woff2) format('woff2'),
+  url(../fonts/NotoSansKR-Light.woff) format('woff')
+}
+@font-face{
+  font-weight:350;
+  font-family:NotoSansKR;
+  src:url(../fonts/NotoSansKR-DemiLight.eot);
+  src:url(../fonts/NotoSansKR-DemiLight.eot?#iefix) format('embedded-opentype'),
+  url(../fonts/NotoSansKR-DemiLight.woff2) format('woff2'),
+  url(../fonts/NotoSansKR-DemiLight.woff) format('woff')
+}
+@font-face{
+  font-weight:400;
+  font-family:NotoSansKR;
+  src:url(../fonts/NotoSansKR-Regular.eot);
+  src:url(../fonts/NotoSansKR-Regular.eot?#iefix) format('embedded-opentype'),
+  url(../fonts/NotoSansKR-Regular.woff2) format('woff2'),
+  url(../fonts/NotoSansKR-Regular.woff) format('woff')
+}
+@font-face{
+  font-weight:500;
+  font-family:NotoSansKR;
+  src:url(../fonts/NotoSansKR-Medium.eot);
+  src:url(../fonts/NotoSansKR-Medium.eot?#iefix) format('embedded-opentype'),
+  url(../fonts/NotoSansKR-Medium.woff2) format('woff2'),
+  url(../fonts/NotoSansKR-Medium.woff) format('woff')
+}
+@font-face{
+  font-weight:700;
+  font-family:NotoSansKR;
+  src:url(../fonts/NotoSansKR-Bold.eot);
+  src:url(../fonts/NotoSansKR-Bold.eot?#iefix) format('embedded-opentype'),
+  url(../fonts/NotoSansKR-Bold.woff2) format('woff2'),
+  url(../fonts/NotoSansKR-Bold.woff) format('woff')
+}
+@font-face{
+  font-weight:900;
+  font-family:NotoSansKR;
+  src:url(../fonts/NotoSansKR-Black.eot);
+  src:url(../fonts/NotoSansKR-Black.eot?#iefix) format('embedded-opentype'),
+  url(../fonts/NotoSansKR-Black.woff2) format('woff2'),
+  url(../fonts/NotoSansKR-Black.woff) format('woff')
+}
+
+/* font-family Roboto */
+@font-face{
+    font-weight:100;
+    font-family:Roboto;
+    src:url(../fonts/Roboto-Thin.eot);
+    src:url(../fonts/Roboto-Thin.eot?#iefix) format('embedded-opentype'),
+    url(../fonts/Roboto-Thin.woff2) format('woff2'),
+    url(../fonts/Roboto-Thin.woff) format('woff')
+}
+@font-face{
+    font-weight:300;
+    font-family:Roboto;
+    src:url(../fonts/Roboto-Light.eot);
+    src:url(../fonts/Roboto-Light.eot?#iefix) format('embedded-opentype'),
+    url(../fonts/Roboto-Light.woff2) format('woff2'),
+    url(../fonts/Roboto-Light.woff) format('woff')
+}
+@font-face{
+    font-weight:400;
+    font-family:Roboto;
+    src:url(../fonts/Roboto-Regular.eot);
+    src:url(../fonts/Roboto-Regular.eot?#iefix) format('embedded-opentype'),
+    url(../fonts/Roboto-Regular.woff2) format('woff2'),
+    url(../fonts/Roboto-Regular.woff) format('woff')
+}
+@font-face{
+    font-weight:500;
+    font-family:Roboto;
+    src:url(../fonts/Roboto-Medium.eot);
+    src:url(../fonts/Roboto-Medium.eot?#iefix) format('embedded-opentype'),
+    url(../fonts/Roboto-Medium.woff2) format('woff2'),
+    url(../fonts/Roboto-Medium.woff) format('woff')
+}
+@font-face{
+    font-weight:700;
+    font-family:Roboto;
+    src:url(../fonts/Roboto-Bold.eot);
+    src:url(../fonts/Roboto-Bold.eot?#iefix) format('embedded-opentype'),
+    url(../fonts/Roboto-Bold.woff2) format('woff2'),
+    url(../fonts/Roboto-Bold.woff) format('woff')
+}
+@font-face{
+    font-weight:900;
+    font-family:Roboto;
+    src:url(../fonts/Roboto-Black.eot);
+    src:url(../fonts/Roboto-Black.eot?#iefix) format('embedded-opentype'),
+    url(../fonts/Roboto-Black.woff2) format('woff2'),
+    url(../fonts/Roboto-Black.woff) format('woff')
+}
+
+/* REM 기준 */
+
+/* Mobile */
+@media screen and (max-width:1024px){
+html{font-size:18px}}
+@media screen and (max-width:960px){
+html{font-size:17.60px}}
+@media screen and (max-width:910px){
+html{font-size:17.30px}}
+@media screen and (max-width:860px){
+html{font-size:17px}}
+@media screen and (max-width:810px){
+html{font-size:16.70px}}
+@media screen and (max-width:760px){
+html{font-size:16.40px}}
+@media screen and (max-width:710px){
+html{font-size:16.10px}}
+@media screen and (max-width:660px){
+html{font-size:15.80px}}
+@media screen and (max-width:610px){
+html{font-size:15.50px}}
+@media screen and (max-width:560px){
+html{font-size:15.20px}}
+@media screen and (max-width:510px){
+html{font-size:14.90px}}
+@media screen and (max-width:460px){
+html{font-size:14.60px}}
+@media screen and (max-width:410px){
+html{font-size:14.30px}}
+@media screen and (max-width:360px){
+html{font-size:14px}}
+@media screen and (max-width:320px){
+html{font-size:13px}}

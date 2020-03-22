@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+body,header,nav,section,article,aside,footer,address,h1,h2,h3,h4,h5,h6,p,a,small,strong,b,i,dl,dt,dd,ol,ul,li,label,input,textarea,table,select,button,div,span{margin:0;padding:0;font:inherit}
+
+a{text-decoration:none}
+ol,ul{list-style:none}
+table{border-collapse:collapse;border-spacing:0}
+img,iframe,fieldset{border:none;vertical-align:top}
+button{border:none;background-color:#fff;cursor:pointer}
+
+/* HTML5 display-role reset for older browsers */
+header,nav,section,article,aside,footer{display: block}
+
+/* 모바일 */
+body{-webkit-text-size-adjust:none;text-size-adjust:none}
+
+/* iOS 아이폰 input 기본 속성 */
+input,select{border:none;border-radius:0;-webkit-border-radius:0;appearance:none;-webkit-appearance:none}

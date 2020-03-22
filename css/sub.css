@@ -1,0 +1,83 @@
+@charset "UTF-8";
+/*Author Kim Geon */
+
+/* header */
+.header_inner{position:relative;z-index:20;background-color:#fff;box-shadow: 0 6px 6px -6px rgba(0,0,0,.2);-webkit-box-shadow: 0 6px 6px -6px rgba(0,0,0,.2);text-align:center}
+.header_inner h1{display:inline-block}
+.header_inner h1 a{display:inline-block;padding:8px 0 13px;font-weight:900;font-size:48px;line-height:1;font-family:Roboto;color:#444;letter-spacing:.5px}
+.header_inner h1 span{display:block;font-weight:300;font-size:11px;font-family:Roboto;color:#999}
+
+/* content */
+.content_wrap{margin-top:-80px;padding:80px 0 30px;box-sizing:border-box}
+.content_inner{position:relative}
+
+/* 로그인 < CCLA */
+.form_area{position:absolute;top:50%;right:0;left:0;width:400px;margin:-170px auto 0;padding:25px 25px 8px;border:1px solid #ddd;background-color:#f8f8f8}
+.form_area input{width:100%;padding:10px 15px;border:1px solid #ddd;box-sizing:border-box}
+.form_area input+input{margin-top:10px}
+.list_note{margin-top:10px}
+.list_note li{padding-left:10px;font-size:14px;line-height:1.4;color:#666;text-indent:-10px}
+.form_area .btn_login{display:block;width:100%;margin-top:15px;padding:10px 0;border:1px solid #111;box-sizing:border-box;background-color:#333;font-weight:500;font-family:NotoSansKR;color:#fff;text-align:center}
+.join_membership{margin-top:6px;text-align:right}
+.btn_joinPop{padding:2px 4px;border:none;background-color:transparent;font-size:14px}
+
+/* 회원가입 작성 폼 :: 로그인 < CCLA */
+.join_form_area{position:fixed;top:0;right:0;bottom:0;left:0;z-index:30;background-color:rgba(0,0,0,.4);text-align:center}
+.join_form{display:inline-block;overflow-y:auto;position:relative;width:500px;max-height:738px;margin-top:100px;padding:25px;background-color:#fff;text-align:left;-webkit-overflow-scrolling:touch}
+.join_form h2{font-weight:700;font-size:20px;font-family:NotoSansKR;margin-bottom:10px}
+.list_form{padding:15px 0;border-top:2px solid #666;border-bottom:1px solid #666}
+.list_form>li+li{margin-top:12px}
+.list_form label{display:block;margin-bottom:6px;font-weight:500;font-family:NotoSansKR}
+.list_form input{width:100%;padding:10px 15px;border:1px solid #ddd;box-sizing:border-box}
+.btn_join{width:100%;margin-top:15px;padding:10px;border:1px solid #111;background-color:#333;font-weight:500;font-size:16px;font-family:NotoSansKR;color:#fff}
+.btn_clse{position:absolute;top:15px;right:15px;width:20px;height:20px;background:url(../images/pc/btn_clse.png) no-repeat 0 0/cover}
+
+/* footer */
+.footer_wrap{position:absolute;right:0;bottom:0;left:0;z-index:20}
+
+/* mediaquery */
+@media screen and (max-width:1024px){
+  /* header */
+  .header_inner h1 a{padding:0.4286rem 0 0.7143rem;font-size:2rem}
+  .header_inner h1 span{font-size:0.5714rem}
+  .userInterface{top:0.8571rem;right:1.143rem}
+  .btn_logout{font-size:0.8571rem}
+
+  /* content */
+  #content{position:relative;margin-top:-3.857rem;padding:3.857rem 0 1.429rem}
+  .content_inner{position:static}
+
+  /* 로그인 < CCLA */
+  .section_inner{margin-top:-4.286rem;padding-top:4.286rem}
+  .form_area{max-width:20rem;margin:-7.429rem auto 0;padding:1.286rem 1.286rem 0.4286rem}
+  .form_area input{padding:0.4286rem 0.7143rem;font-size:1rem}
+  .form_area input+input{margin-top:.5rem}
+  .list_note{margin-top:.5rem}
+  .list_note li{padding-left:0.5714rem;font-size:0.7857rem;text-indent:-0.5714rem}
+  .btn_login{margin-top:0.7143rem;padding:0.4286rem 0;font-size:1rem}
+  .join_membership{margin-top:0.4286rem;line-height:1}
+  .btn_joinPop{padding:0.07143rem 0.1429rem;font-size:0.7857rem}
+
+  /* 회원가입 작성 폼 :: 로그인 < CCLA */
+  .join_form{max-width:80vw;height:31.79rem;margin-top:4.2rem;padding:1.071rem}
+  .list_form{padding:0.9286rem 0}
+  .join_form h2{font-size:1.143rem;margin-bottom:0.5714rem}
+  .list_form>li+li{margin-top:0.6429rem}
+  .list_form label{margin-bottom:0.2857rem;font-size:1rem}
+  .list_form input{padding:0.4286rem 0.7143rem;font-size:1rem}
+  .btn_join{margin-top:0.9286rem;padding:0.4286rem 0.7143rem;font-size:1rem}
+  .btn_clse{top:1rem;right:1rem;width:1.071rem;height:1.071rem}
+
+  /* 회원가입 작성 폼 :: 로그인 < CCLA */
+  .join_form{max-width:80vw;height:31.79rem;margin-top:4.2rem;padding:1.071rem}
+  .list_form{padding:0.9286rem 0}
+  .join_form h2{font-size:1.143rem;margin-bottom:0.5714rem}
+  .list_form>li+li{margin-top:0.6429rem}
+  .list_form label{margin-bottom:0.2857rem;font-size:1rem}
+  .list_form input{padding:0.4286rem 0.7143rem;font-size:1rem}
+  .btn_join{margin-top:0.9286rem;padding:0.4286rem 0.7143rem;font-size:1rem}
+  .btn_clse{top:1rem;right:1rem;width:1.071rem;height:1.071rem}
+
+  /* footer */
+  .copy{padding:0.1429rem 0 0.2143rem;font-size:0.5714rem}
+}
