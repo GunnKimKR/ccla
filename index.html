@@ -3,74 +3,125 @@
 <head>
   <meta charset="UTF-8">
   <meta name="author" content="Kim Geon">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>로그인 &lt; CCLA</title>
-  <link rel="stylesheet" type="text/css" href="css/font.css">
-  <link rel="stylesheet" type="text/css" href="css/reset.css">
-  <link rel="stylesheet" type="text/css" href="css/common.css">
-  <link rel="stylesheet" type="text/css" href="css/sub.css">
+  <title>CCLA</title>
+  <link rel="stylesheet" type="text/css" href="/css/font.css">
+  <link rel="stylesheet" type="text/css" href="/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="/css/common.css">
+  <link rel="stylesheet" type="text/css" href="/css/main.css">
 </head>
 <body>
 <div id="wrap">
+
+  <!-- header -->
   <header id="header">
     <div class="header_inner">
       <h1><a href="#;">CCLA<span>Christian Culture Leadership Academy</span></a></h1>
+        <a href="/pages/login.html" class="btn_logout">로그아웃</a>
+      </div>
     </div>
   </header>
-  <section id="content" class="content_wrap">
-    <h2 class="blind">본문</h2>
-    <div class="content_inner">
-      <section class="form_area">
-        <h2 class="blind">로그인 회원정보 입력</h2>
-        <input type="text" title="아이디 입력" placeholder="아이디">
-        <input type="password" title="비밀번호 입력" placeholder="비밀번호">
-        <h3 class="blind">로그인 시 유의사항</h3>
-        <ul class="list_note">
-          <li>* 부적절한 접근 시 법적 책임을 물을 수 있습니다. </li>
-          <li>* 아이디 및 비밀번호 분실 시 담당 관리자에게 문의 바랍니다.</li>
-        </ul>
-        <a href="https://kimgeonkr.github.io/ccla/pages/main.html" class="btn_login">로그인</a>
-        <div class="join_membership">
-          <button type="button" class="btn_joinPop" title="회원가입 팝업">회원가입</button>
+  <!-- //header -->
+
+  <!-- content -->
+  <section id="content">
+    <h2 class="blind">강좌 등급별 소개</h2>
+    <input type="radio" name="radio" id="check1" class="radio radio1 blind">
+    <input type="radio" name="radio" id="check2" class="radio radio2 blind">
+    <input type="radio" name="radio" id="check3" class="radio radio3 blind">
+
+    <!-- section1 -->
+    <label for="check1" class="section section1">
+      <section class="courseInfo">
+        <div class="tit_area">
+          <h2 class="subject">Cultivate</h2>
+          <span>땅을 일구고 농사 지을 준비를 하는 단계입니다</span>
+        </div>
+        <div class="txt_area">
+          <p class="transition1">성경의 원리적 관점에 입각해<br>자신의 내적 특성을 인식하고 이해하는 과정</p>
         </div>
       </section>
-    </div>
+      <div class="courseInfo_fade transition_hide">
+        <div class="tit_area">
+          <strong class="subject transition_hide">Cultivate</strong>
+          <span class="transition_hide">땅을 일구고 농사 지을 준비를 하는 단계입니다</span>
+        </div>
+        <div class="txt_area">
+          <p class="transition1 transition_hide">성경의 원리적 관점에 입각해<br>자신의 내적 특성을 인식하고 알아가는 과정</p>
+          <p class="transition2 transition_hide">본 과정은 초급 수강자에게 적합한 학습 내용입니다.<br>씨앗이 싹을 틔우기 위해서는 토지의 조건이 적합해야 하기 때문에 자신의 마음의 밭을 가꾸는 충분한 인내와 노력이 필요합니다.</p>
+        </div>
+        <div class="btn_area transition_hide">
+          <a href="#;" class="btn_attend">수강하기</a>
+        </div>
+      </div>
+      <span class="bg_section"></span>
+    </label>
+    <!-- //section1 -->
+
+    <!-- section2 -->
+    <label for="check2" class="section section2">
+      <section class="courseInfo">
+        <div class="tit_area">
+          <h2 class="subject">Grow up</h2>
+          <span>싹을 틔워 자라가는 단계입니다</span>
+        </div>
+        <div class="txt_area">
+          <p class="transition1">주체로서의 참된 나를 발견하며<br>새로운 통찰력을 갖고 나아가는 과정</p>
+        </div>
+      </section>
+      <div class="courseInfo_fade transition_hide">
+        <div class="tit_area">
+          <strong class="subject transition_hide">Grow up</strong>
+          <span class="transition_hide">싹을 틔워 자라가는 단계입니다</span>
+        </div>
+        <div class="txt_area">
+          <p class="transition1 transition_hide">주체로서의 참된 나를 발견하며<br>새로운 통찰력을 갖고 나아가는 과정</p>
+          <p class="transition2 transition_hide">본 과정은 중급 수강자에게 적합한 학습 내용입니다.<br>식물이 잘 자라가기 위해서는 적당한 양의 물, 충분한 햇빛, 양분, 온도, 공기 등이 필요한 것처럼 내 주변 환경을 잘 살펴 가는 섬세함이 필요합니다.</p>
+        </div>
+        <div class="btn_area transition_hide">
+          <span class="btn_attend">이전 단계 교과 이수가 필요합니다.</span>
+        </div>
+      </div>
+      <span class="bg_section"></span>
+    </label>
+    <!-- //section2 -->
+
+    <!-- section3 -->
+    <label for="check3" class="section section3">
+      <section class="courseInfo">
+        <div class="tit_area">
+          <h2 class="subject">Fruition</h2>
+          <span>장성한 자가 되어 결실을 맺는 단계입니다</span>
+        </div>
+        <div class="txt_area">
+          <p class="transition1">나 자신을 실체로서 나타냄으로<br>자아의 본질을 완전히 실현하는 과정</p>
+        </div>
+      </section>
+      <div class="courseInfo_fade transition_hide">
+        <div class="tit_area">
+          <strong class="subject transition_hide">Fruition</strong>
+          <span class="transition_hide">장성한 자가 되어 결실을 맺는 단계입니다</span>
+        </div>
+        <div class="txt_area">
+          <p class="transition1 transition_hide">나 자신을 실체로서 나타냄으로<br>자아의 본질을 완전히 실현하는 과정</p>
+          <p class="transition2 transition_hide">본 과정은 고급 수강자에게 적합한 학습 내용입니다.<br>최선의 노력, 온 정성과 힘을 다해 가꾸어 왔다면 가장 최상의 결실을 맺을 것입니다.</p>
+        </div>
+        <div class="btn_area transition_hide">
+          <span class="btn_attend">이전 단계 교과 이수가 필요합니다.</span>
+        </div>
+      </div>
+      <span class="bg_section"></span>
+    </label>
+    <!-- section3 -->
+    
   </section>
-  <footer id="footer" class="footer_wrap">
+  <!-- //content -->
+
+  <footer id="footer">
     <small class="copy">COPYRIGHT &copy; CCLA All Rights Reserved.</small>
   </footer>
-  <section class="join_form_area hide">
-    <div class="join_form">
-      <h2>회원정보 입력</h2>
-      <ul class="list_form">
-        <li>
-          <label for="id">아이디</label>
-          <input type="text" id="id">
-        </li>
-        <li>
-          <label for="pw">비밀번호</label>
-          <input type="password" id="pw">
-        </li>
-        <li>
-          <label for="pw2">비밀번호 확인</label>
-          <input type="password" id="pw2">
-        </li>
-        <li>
-          <label for="name">이름</label>
-          <input type="text" id="name">
-        </li>
-        <li>
-          <label for="hp">핸드폰</label>
-          <input type="tel" id="hp">
-        </li>
-      </ul>
-      <button type="submit" class="btn_join">가입하기</button>
-      <button type="button" class="btn_clse"><span class="blind">닫기</span></button>
-    </div>
-  </section>
+
 </div>
-<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
-<script type="text/javascript" src="js/common.js"></script>
 </body>
 </html>
