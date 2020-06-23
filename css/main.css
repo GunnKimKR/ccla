@@ -27,9 +27,9 @@
 .btn_area{position:absolute;right:0;bottom:0;left:0;transition:1s 1.2s}
 .btn_area .btn_attend{display:inline-block;padding:7px 22px;border:1px solid rgba(255,255,255,.6);box-sizing:border-box;background-color:rgba(0,0,0,.4);font-weight:700;font-size:20px;color:#fff;letter-spacing:.5px}
 
-.section1 .bg_section{background:#000 url(/images/pc/bg_section.jpg) no-repeat -400px 0}
-.section2 .bg_section{background:#000 url(/images/pc/bg_section2.jpg) no-repeat -400px 0}
-.section3 .bg_section{background:#000 url(/images/pc/bg_section3.jpg) no-repeat -700px 0}
+.section1 .bg_section{background:#000 url(../images/pc/bg_section.jpg) no-repeat -400px 0}
+.section2 .bg_section{background:#000 url(../images/pc/bg_section2.jpg) no-repeat -400px 0}
+.section3 .bg_section{background:#000 url(../images/pc/bg_section3.jpg) no-repeat -700px 0}
 
 /* radio:checked */
 .radio1:checked~.section1,
@@ -42,11 +42,11 @@
 .radio3:checked~.section1,
 .radio3:checked~.section2{width:5%}
 .radio2:checked~.section1:before,
-.radio3:checked~.section1:before{display:block;background-image:url(/images/pc/btn_opn1.png)}
+.radio3:checked~.section1:before{display:block;background-image:url(../images/pc/btn_opn1.png)}
 .radio1:checked~.section2:before,
-.radio3:checked~.section2:before{display:block;background-image:url(/images/pc/btn_opn2.png)}
+.radio3:checked~.section2:before{display:block;background-image:url(../images/pc/btn_opn2.png)}
 .radio1:checked~.section3:before,
-.radio2:checked~.section3:before{display:block;background-image:url(/images/pc/btn_opn3.png)}
+.radio2:checked~.section3:before{display:block;background-image:url(../images/pc/btn_opn3.png)}
 
 .radio1:checked~.section1:after,
 .radio2:checked~.section2:after,
@@ -110,9 +110,9 @@
 
   .btn_area .btn_attend{padding:0.2857rem 1rem;font-size:1rem}
 
-  .section1 .bg_section{background:#000 url(/images/pc/bg_section.jpg) no-repeat 0 0/cover}
-  .section2 .bg_section{background:#000 url(/images/pc/bg_section2.jpg) no-repeat 0 0/cover}
-  .section3 .bg_section{background:#000 url(/images/pc/bg_section3.jpg) no-repeat 0 0/cover}
+  .section1 .bg_section{background:#000 url(../images/pc/bg_section.jpg) no-repeat 0 0/cover}
+  .section2 .bg_section{background:#000 url(../images/pc/bg_section2.jpg) no-repeat 0 0/cover}
+  .section3 .bg_section{background:#000 url(../images/pc/bg_section3.jpg) no-repeat 0 0/cover}
 
 
   /* radio:checked */
@@ -126,11 +126,11 @@
   .radio3:checked~.section1,
   .radio3:checked~.section2{width:100%;height:7%}
   .radio2:checked~.section1:before,
-  .radio3:checked~.section1:before{display:block;background-image:url(/images/mobile/btn_opn1.png)}
+  .radio3:checked~.section1:before{display:block;background-image:url(../images/mobile/btn_opn1.png)}
   .radio1:checked~.section2:before,
-  .radio3:checked~.section2:before{display:block;background-image:url(/images/mobile/btn_opn2.png)}
+  .radio3:checked~.section2:before{display:block;background-image:url(../images/mobile/btn_opn2.png)}
   .radio1:checked~.section3:before,
-  .radio2:checked~.section3:before{display:block;background-image:url(/images/mobile/btn_opn3.png)}
+  .radio2:checked~.section3:before{display:block;background-image:url(../images/mobile/btn_opn3.png)}
 
   .radio1:checked~.section2:after,
   .radio1:checked~.section3:after,
